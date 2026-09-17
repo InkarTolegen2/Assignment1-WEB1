@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Webpage</title>
+
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    h2 {
+      font-family: Georgia, serif;
+    }
+    .internal-note {
+      color: darkgreen;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header" id="top">
+    <h1 id="main-heading">Ingkar Tolegen </h1>
+    <h2>Course: Web 1 Technologies Front-End Development</h2>
+    <h3>About Me:</h3>
+  </div>
+
+  <div class="main-content">
+
+    <section class="card">
+      <p>
+        Hello! My name <span class="highlight">Ingkar Tolegen</span>
+        I studied WEB technology, HTML and CSS. In this project, I collected tasks: list, tables, forms, styles, and website publishing.
+      </p>
+
+      <p style="color:blue;">
+        This paragraph is styled with inline CSS: the text color is blue.
+      </p>
+
+      <p class="internal-note">
+        This paragraph uses internal CSS from &lt;style&gt;.
+      </p>
+
+      <p class="external-note">
+        This paragraph is styled via an external CSS file style.css.
+      </p>
+
+      <p class="highlight">
+        This paragraph also uses the highlight class.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Hobbies</h2>
+      <ol>
+        <li>Programming</li>
+        <li>Sport</li>
+        <li class="highlight">Music</li>
+      </ol>
+
+      <h2>Favorite websites</h2>
+      <ul>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Photo</h2>
+      <img src="photo.jpg" alt="Photo" class="profile-img">
+
+      <p>
+        <a href="https://github.com/" target="_blank">My GitHub</a> |
+        <a href="#schedule">Go to Schedule</a>
+      </p>
+
+      <button type="button">Click Me</button>
+    </section>
+
+    <section class="card" id="schedule">
+      <h2>Class Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Web Technologies</td><td>Monday</td><td>10:00</td></tr>
+          <tr><td>Math</td><td>Tuesday</td><td>12:00</td></tr>
+          <tr><td>English</td><td>Wednesday</td><td>14:00</td></tr>
+          <tr><td>Programming</td><td>Friday</td><td>09:00</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>Table Layout</h2>
+      <table class="layout-table">
+        <tr>
+          <td class="menu-cell">
+            <strong>Menu</strong><br>
+            <a href="#top">Top</a><br>
+            <a href="#schedule">Schedule</a><br>
+            <a href="#form">Form</a>
+          </td>
+          <td class="content-cell">
+            <p>This is a two-column layout using a table: menu on the left, main contebt on the right.</p>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>My Mood Today</h2>
+      <p>Today I am cheerful😀, a bit sleepy 😴, but motivated 🚀.</p>
+    </section>
+
+    <section class="card" id="form">
+      <h2>Форма</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name:" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="favorite_color" value="#3498db">
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>CSS Positioning & Float</h2>
+
+      <div class="position-demo">
+        <div class="static-box">static</div>
+        <div class="relative-box">relative</div>
+        <div class="absolute-box">absolute</div>
+      </div>
+
+      <div class="float-container">
+        <div class="float-left">Left box</div>
+        <div class="float-right">Right box</div>
+        <div class="clear"></div>
+        <p>This text is below the floating boxes thanks to clear.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2026 Ingkar. Assignment 1.</p>
+  </div>
+
+</body>
+</html>
