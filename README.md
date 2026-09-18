@@ -82,7 +82,7 @@ Created two floated boxes and added clear.
 
 ### Step 21. GitHub Pages
 Website is published via GitHub Pages.
-**Published URL:** [https://username.github.io/assignment1/](https://github.com/InkarTolegen2/Assignment1-WEB1)
+**Published URL:** [https://github.com/InkarTolegen2/Assignment1-WEB1](https://github.com/InkarTolegen2/Assignment1-WEB1)
 
 ## Work Summary
 During this work, I created an HTML page, added lists, tables, a form, an image, links, and a button. Then I connected an external CSS file, used inline and internal CSS, classes and IDs, the box model, positioning, and float. After testing, the site was uploaded to a public GitHub repository and published via GitHub Pages.
